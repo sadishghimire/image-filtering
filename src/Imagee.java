@@ -109,7 +109,7 @@ int[][] logtransform(int[][] f){
 //        Image.display(rescaledpixel,"rescaled image");
 //        int[][] enhancedpixel=imagee.enhanced(f,rescaledpixel);
 //        Image.display(enhancedpixel,"enhanced Pixel");
-        int[][] loggedpixels= ;
+        int[][] loggedpixels= imagee.logtransform(f);
         Image.display(loggedpixels,"logged Pixel");
 
 
